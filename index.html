@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+
+    <title>Carousel Template for Bootstrap</title>
+
+                <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+            
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carrusel.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- aqui inicia la barra de navegación================================================== -->
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a id="GROOMING" class="navbar-brand" href="#">GROOMING</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                    <li><a href="galeria.html">Galeria de Fotos</a></li>
+                <li><a href="información.html">Información</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+<!-- aqui termina la barra de navegación================================================== -->
+
+    <!-- aqui inicia el carusel================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+       <!-- aqui inicia el primer seccion del carusel================================================== -->
+        <div class="item active">
+          <img class="first-slide" src="img/055.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <p><a class="btn btn-lg btn-danger" href="#¿Qué-es-el-grooming?" role="button">Más información.</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- aqui termina el primer seccion del carusel================================================== -->
+        <div class="item">
+          <img class="second-slide" src="img/07.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="img/p5.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- aqui termina el carusel================================================== -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- inicia texto de tres columnas-->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/02.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Etapas:</h2>
+             <p align="justify"> 
+                <br>1.Buscar a la victima.
+                <br>2.Enganche.
+                <br>3.Fidelización.
+                <br>4.Aislamiento.
+                <br>5.Seducción. 
+                <br>6.Acoso.
+            </p>
+          <p><a class="btn btn-danger" href="#Etapas..." role="button">detalles...</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/p22.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Prevención:</h2>
+          <p align="justify">
+            <br> 1.Establecer unos hábitos de navegación seguros.
+            <br> 2.Extremar la precaución al conversar online.
+            <br>3.Evitar prácticas de riesgo.
+            <br>4.Comunicación y sensibilización. 
+            <br>5.Acompañamiento y supervisión.
+          </p>
+          <br><br><p><a class="btn btn-danger" href="#Prevención." role="button">detalles... </a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/04.png" width="140" height="140">
+          <h2>concejos:</h2>
+          <p><center>
+            <br>1. Cuando estés conversando con una persona, nunca, no importa quien sea, des tus datos personales, o los de un familiar (dirección, teléfono, nombres, documentos de identidad y/o contraseñas).
+            <br>2.  No contestes mensajes incómodos, ni hagas cosas que a tu criterio puedan estar mal; tu eres libre y nadie tiene derecho a obligarte a hacer cosas que no quieres.
+          </center> </p>
+          <p><a class="btn btn-danger" href="#Concejos." role="button">concejos... </a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+      <!--termina texto de tres columnas-->
+        <hr class="featurette-divider">
+      <!-----aqui empeza el menú de subtemas------>
+      <nave class="menuContenidos" >
+      <li class="active">El artículo habla sobre:
+        <ul>
+            <li>1 <a href="#¿Qué-es-el-grooming?" data-scrollto="#¿Qué-es-el-grooming?" data-highlight="yellow" title="¿Qué es el grooming?">¿Qué es el grooming?</a></li>
+           
+            <li>2 <a href="#Etapas..." data-scrollto="#Etapas..." data-highlight="yellow" title="Etapas...">Etapas...</a></li>
+
+            <li>3 <a href="#¿Cómo-raccionar?" data-scrollto="#¿Cómo-raccionar?" data-highlight="yellow" title="¿Cómo raccionar?">¿Cómo raccionar?</a></li>
+
+            <li>4 <a href="#Prevención." data-scrollto="#Prevención." data-highlight="yellow" title="Prevención.">Prevención.</a></li>
+            
+            <li>5 <a href="#Concejos." data-scrollto="#Concejos." data-highlight="yellow" title="Concejos.">Concejos.</a></li></ul></li></nave>
+<!-----aqui termina el menú de subtemas------>
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 id="¿Qué-es-el-grooming?" class="featurette-heading">¿Qué es el grooming?<span class="text-muted">Sus objetivos son....</span></h2>
+          <p class="lead"align="justify">En ocasiones, los adultos se hacen pasar por menores en Internet o intentan establecer un contacto con niños y adolescentes que dé pie a una relación de confianza, pasando después al control emocional y, finalmente al chantaje con fines sexuales y tiene diversos objetivos:
+          <br><b>1.</b> Producción de imágenes y vídeos con connotación o actividad sexual, destinados al consumo propio de pederastas o a redes de abuso sexual a menores.
+          <br><b>2.</b> Encuentros en persona con el menor y abuso sexual físico.
+          <br><b>3.</b> Explotación sexual y prostitución infantil.
+          </p>
+        </div>
+        <div class="col-md-5">
+         <center> <br><br><br><br><br><br><br><br><br><img src="img/p1.png" width="100%" height="50%" alt="Generic placeholder image"> </center>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 id="Etapas..." class="featurette-heading">Etapas... <span class="text-muted">Pasos o acciones cronológicas que hace el adulto agresor.</span></h2>
+          <p class="lead"align="justify">
+            <br><b>1. Buscar a la victima:</b> Esto se puede hacer por medio de redes sociales, foros, paginas de conversaciones grupales y demás.
+            <br><b>2. Enganche:</b> Es allí donde prolongan una amistad más fuerte, preguntando por sus gustos, interesándose por ellos para ganar su confianza.
+            <br><b>3. Fidelización:</b> El acosador le hace saber al menor, que puede confiar en él y que su amistad es verdadera. 
+            <br><b>4. Aislamiento:</b> El menor empieza a alejarse de las personas que lo rodea, y pasa mas tiempo en la computadora y su actitud es diferente. 
+            <br><b>5. Seducción:</b> Para que el menor haga lo que el acosador le pide, él recurre a halagos, obsequios y mucha atención. 
+            <br><b> 6. Acoso:</b> El acosador se muestra tal cual es, y empieza con sus chantajes, amenazas,extorsiones y demás; para que el haga lo que él le pide. 
+       </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="img/088.png" width="100%" height="50%" alt="Generic placeholder image"></center>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 id="¿Cómo-raccionar?" class="featurette-heading">¿Cómo raccionar? <span class="text-muted">De que manera auxiliarse...</span></h2>
+          <p class="lead"align="justify">
+            <br><b>1.</b> Deben saber que pueden acudir a los adultos de su confianza en busca de ayuda, ya que se trata de un problema de gravedad. Es el momento de transmitir al menor una actitud de seguridad y madurez para que se sienta protegido.
+            <br><b>2.</b> Si el menor ha decidido dar el paso de contarnos lo que está sucediendo, debemos valorar el esfuerzo que eso supone y no dudar o cuestionar sus palabras. No culpabilizar a la víctima y reafirmar nuestro apoyo incondicional.
+            <br><b>3.</b> No debemos dejarnos llevar por la situación o actuar irreflexivamente. Contactar con el acosador o borrar información (contenidos enviados, conversaciones, perfiles en redes sociales, etc.) puede dificultar la resolución del problema o incluso agravarlo.
+            <br><b>4.</b> Si nos encontramos ante un agresor que tiene (o dice tener) alguna información sensible en su poder, nunca debemos ceder a la manipulación, ya que empeorará la situación.
+            <br><b>5.</b> Ante una situación de grooming es imprescindible contactar con las Fuerzas y Cuerpos de seguridad. Es un delito complejo y ellos sabrán indicarnos los pasos que debemos seguir. Además, puede haber otros menores afectados por un mismo acosador: con nuestra denuncia nos implicaremos en su detención.
+            <br><b>6.</b> Las consecuencias pueden ser difíciles de afrontar, tanto para el menor como para su familia. El centro de salud y su centro educativo pueden ofrecer apoyo emocional y seguimiento si es necesario.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="img/08.png" width="100%" height="50%"  alt="Generic placeholder image"></center>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+       <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 id="Prevención." class="featurette-heading">Prevención.<span class="text-muted">Maneras de no caer en el grooming.</span></h2>
+          <p class="lead"align="justify">
+            <b><br>1. Establecer unos hábitos de navegación seguros:</b>Acordar unas normas de uso de Internet en casa favorecerá su responsabilidad y su seguridad al conectarse. Debemos establecer unos horarios de uso y cuál será el lugar para usar esos dispositivos, procurando que sean espacios comunes.
+            <b><br>2. Extremar la precaución al conversar online:</b>Para los menores, un desconocido puede dejar de serlo si ya han hablado un par de veces por Internet. Puede incluso que el atacante sea una persona que sí conocen en persona. Por ello, en cualquier conversación online debemos ser cautos a la hora de compartir nuestra información personal y mantenernos alerta: no todo es lo que parece.
+           <b><br>3. Comunicación y sensibilización:</b>Hablar con naturalidad del amor y la sexualidad les ayudará a diferenciar las relaciones saludables de las que no lo son. Deben conocer con claridad cómo ocurre una situación de grooming y sus consecuencias para saber cómo protegerse. Además, una buena comunicación nos permitirá conocer sus hábitos en Internet y sus amistades online. Frente a un problema, podrán acudir a nosotros o a un adulto de referencia con el que se sientan cómodos.
+          <b><br>4. Evitar prácticas de riesgo:</b>En Internet es bastante fácil que alguien se haga pasar por quien no es. Por ello, es recomendable evitar prácticas como el sexting, así como no contactar o quedar con personas a las que no conocemos en persona. Siempre que alguien proponga un encuentro, comunicárselo a un adulto de confianza.
+          <b><br>5. Acompañamiento y supervisión:</b>El acceso de los menores a Internet debe ser progresivo y contar con el respaldo de un adulto, para que aprendan poco a poco cómo utilizar las nuevas tecnologías de forma segura y responsable. Para los más pequeños, podemos además instalar sistemas de control parental en los dispositivos, para limitar su uso y supervisar su actividad.
+        </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+         <center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="img/p6.jpg" width="100%" height="50%" alt="Generic placeholder image"></center>
+        </div>
+      </div>
+
+ <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 id="Concejos." class="featurette-heading">Concejos.<span class="text-muted">Maneras de cuidarse...</span></h2>
+          <p class="lead" align="justify">
+            <br><b>1.</b> No contestes mensajes incómodos, ni hagas cosas que a tu criterio puedan estar mal; tu eres libre y nadie tiene derecho a obligarte a hacer cosas que no quieres.
+            <br><b>2.</b> Cuéntale a tus padres o a un adulto de confianza cuando alguien te este manipulando, obligando o diciendo cosas. ¡No te quedes callado!
+            <br><b>3.</b> Nunca aceptes encontrarte o verte con alguien que conociste en un chat en un lugar determinado, puede llegar a pasarte algo muy malo. 
+              </p>
+        </div>
+        <div class="col-md-5">
+          <center><br><br><br><br><br><br><br><br><br><br><br><br><br><img src="img/p4.jpg" width="80%" height="40%" alt="Generic placeholder image"></center>
+        </div>
+      </div>
+        <!-- Contador de visitas -->
+        <center><a>
+        <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=292958"></a><br><a>Contador de visitas</a><br></center>
+        <!-- Fin Contador de visitas -->
+
+
+<center>
+  <br><br><br><a href="#GROOMING" class="btn btn-danger" role="button">Regresar al inicio.</a>
+ </center>
+
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2021 Este sitio web fue elavorado para la materia de paginas web de la capacitación de informatica.&middot; <a href="#"></a> &middot; <a>JADEE MENDIVIL  6°B</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+   <!-- Latest compiled and minified JavaScript -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+                <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
